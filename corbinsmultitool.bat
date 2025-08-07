@@ -4,7 +4,7 @@ chcp 65001
 :home
 cls
 color 0a
-title Corbin's Multitool 
+title Tyler's Multitool
 echo.
 echo ███╗   ███╗██╗   ██╗██╗  ████████╗██╗████████╗ ██████╗  ██████╗ ██╗     
 echo ████╗ ████║██║   ██║██║  ╚══██╔══╝██║╚══██╔══╝██╔═══██╗██╔═══██╗██║     
@@ -12,7 +12,7 @@ echo ██╔████╔██║██║   ██║██║     ██�
 echo ██║╚██╔╝██║██║   ██║██║     ██║   ██║   ██║   ██║   ██║██║   ██║██║     
 echo ██║ ╚═╝ ██║╚██████╔╝███████╗██║   ██║   ██║   ╚██████╔╝╚██████╔╝███████╗
 echo ╚═╝     ╚═╝ ╚═════╝ ╚══════╝╚═╝   ╚═╝   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝
-echo A batch script coded by Corbin
+echo A batch script coded by Tyler
 echo.
 echo ===========================================================================================================
 echo Hello %username%!
@@ -50,7 +50,7 @@ goto home
 
 
 :randnum
-title Corbin's Multitool - Generating a random number
+title Tyler's Multitool - Generating a random number
 cls
 echo %random%
 echo Number Generated successfully!
@@ -61,7 +61,7 @@ goto home
 
 :servertest
 cls
-title Corbin's Multitool - Checking a server's status
+title Tyler's Multitool - Checking a server's status
 set /p page= Enter the server you would like to test: 
 cls
 echo Checking "%page%" (this may take a bit.)
@@ -480,3 +480,4 @@ goto ram
 :: for anything that happens due to your use, misuse, modification, or illegal use of this code.
 
 :: Please do not modify this code without my permission or claim that you created it.
+
